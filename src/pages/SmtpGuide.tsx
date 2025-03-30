@@ -42,7 +42,7 @@ const SmtpGuide = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>SMTP (Simple Mail Transfer Protocol) is the standard protocol for sending emails across the Internet.</p>
+              <p>SMTP (Simple Mail Transfer Protocol) is the standard protocol for sending emails across the internet.</p>
             </CardContent>
           </Card>
 
@@ -182,7 +182,7 @@ const SmtpGuide = () => {
                   <p>If you have two-step verification enabled, you'll need to create an app password:</p>
                   <ol className="list-decimal pl-6 space-y-2">
                     <li>Sign in to your <a href="https://account.microsoft.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Microsoft account</a></li>
-                    <li>Go to "Security" > "Advanced security options"</li>
+                    <li>Go to "Security" &gt; "Advanced security options"</li>
                     <li>Under "App passwords", select "Create a new app password"</li>
                     <li>Save the password that appears (you'll need it for the SMTP settings)</li>
                   </ol>
@@ -251,7 +251,7 @@ const SmtpGuide = () => {
                   <p>Yahoo requires an app password for third-party email applications:</p>
                   <ol className="list-decimal pl-6 space-y-2">
                     <li>Sign in to your <a href="https://login.yahoo.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Yahoo account</a></li>
-                    <li>Go to "Account Info" > "Account Security"</li>
+                    <li>Go to "Account Info" &gt; "Account Security"</li>
                     <li>Click on "Generate app password" or "Manage app passwords"</li>
                     <li>Select "Other app" and provide a name</li>
                     <li>Save the password that Yahoo generates for you</li>
@@ -320,7 +320,7 @@ const SmtpGuide = () => {
                   <h3 className="text-lg font-medium">Step 1: Enable IMAP/POP in Zoho Mail</h3>
                   <ol className="list-decimal pl-6 space-y-2">
                     <li>Log in to <a href="https://mail.zoho.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Zoho Mail</a></li>
-                    <li>Go to "Settings" > "Mail Accounts"</li>
+                    <li>Go to "Settings" &gt; "Mail Accounts"</li>
                     <li>Select the "IMAP/POP" tab</li>
                     <li>Enable IMAP access</li>
                   </ol>
@@ -329,7 +329,7 @@ const SmtpGuide = () => {
                 <div className="space-y-4">
                   <h3 className="text-lg font-medium">Step 2: Create an App Password (if you use Two-Factor Authentication)</h3>
                   <ol className="list-decimal pl-6 space-y-2">
-                    <li>Go to your Zoho account > "Security" or "My Account" > "Security"</li>
+                    <li>Go to your Zoho account &gt; "Security" or "My Account" &gt; "Security"</li>
                     <li>Under "App Passwords" or "Application Specific Passwords", create a new app password</li>
                     <li>Give it a name like "Email Workflow"</li>
                     <li>Save the password that Zoho generates</li>
